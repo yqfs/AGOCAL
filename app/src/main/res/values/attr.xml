@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义滑动viewpager-->
+    <declare-styleable name="CustomViewPager">
+        <attr name="viewpager_enabled" format="boolean"/>
+    </declare-styleable>
+</resources>

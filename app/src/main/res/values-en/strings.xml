@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AGOCAL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home_tab_im">chat</string>
+    <string name="home_tab_foot">footprint</string>
+    <string name="home_tab_team">team</string>
+    <string name="home_tab_map">baimap</string>
+    <string name="home_tab_mine">mine</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AGOCAL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home_tab_im">通信</string>
+    <string name="home_tab_foot">足跡</string>
+    <string name="home_tab_team">加團</string>
+    <string name="home_tab_map">地圖</string>
+    <string name="home_tab_mine">個人</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_radioGroup"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <RadioButton
+            android:id="@+id/home_tab_im"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:checked="true"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_tab_im"
+            android:textColor="@drawable/selector_home_tab_color"
+            android:text="@string/home_tab_im" />
+
+        <RadioButton
+            android:id="@+id/home_tab_foot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_tab_im"
+            android:textColor="@drawable/selector_home_tab_color"
+            android:text="@string/home_tab_foot" />
+
+        <RadioButton
+            android:id="@+id/home_tab_team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_tab_im"
+            android:textColor="@drawable/selector_home_tab_color"
+            android:text="@string/home_tab_team" />
+
+        <RadioButton
+            android:id="@+id/home_tab_map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_tab_im"
+            android:textColor="@drawable/selector_home_tab_color"
+            android:text="@string/home_tab_map" />
+
+        <RadioButton
+            android:id="@+id/home_tab_mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_tab_mine"
+            android:textColor="@drawable/selector_home_tab_color"
+            android:text="@string/home_tab_mine" />
+
+    </RadioGroup>
+
+</LinearLayout>
