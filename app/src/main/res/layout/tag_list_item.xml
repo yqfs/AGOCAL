@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:text="标签"
+        android:id="@+id/txt_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="14dp"
+        android:paddingTop="5dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:text="删除"
+        android:id="@+id/btn_del"
+        android:gravity="center"
+        android:layout_marginRight="14dp"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

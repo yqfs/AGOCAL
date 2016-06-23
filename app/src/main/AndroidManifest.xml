@@ -337,27 +337,45 @@
             </intent-filter>
         </receiver>
         -->
-        <!--编辑资料-->
+        <!-- 编辑资料 -->
         <activity
             android:name=".mine.EditInfoActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Translucent" />
-        <!--通过原密码重置密码-->
+        <!-- 通过原密码重置密码 -->
         <activity
             android:name=".loginreg.ResetPswByOriginalActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Translucent" />
-        <!--关于我们-->
+        <!-- 关于我们 -->
         <activity
             android:name=".mine.OboutOursActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Translucent" />
-        <!--意见反馈-->
+        <!-- 意见反馈 -->
         <activity
             android:name=".mine.FeedBackActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!-- 修改用户名 -->
+        <activity
+            android:name=".mine.MotifyNickNameActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!-- 标签 -->
+        <activity
+            android:name=".mine.MineTagActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!--编辑心情-->
+        <activity
+            android:name=".mine.EditMoodActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Translucent"></activity>

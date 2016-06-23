@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jpw.agocal.mine.MineTagActivity">
+
+    <TextView
+        android:background="@color/gray_normal"
+        android:id="@+id/btn_add_tag"
+        android:layout_alignParentRight="true"
+        android:text="新增"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+    
+    <EditText
+        android:singleLine="true"
+        android:background="@color/white"
+        android:id="@+id/et_new_tag"
+        android:paddingLeft="14dp"
+        android:hint="字数限制在16字内"
+        android:layout_toLeftOf="@+id/btn_add_tag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.taobao.uikit.feature.view.TRecyclerView
+        android:layout_marginTop="9dp"
+        android:id="@+id/tr_tag_list"
+        android:layout_below="@+id/et_new_tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.taobao.uikit.feature.view.TRecyclerView>
+
+</RelativeLayout>

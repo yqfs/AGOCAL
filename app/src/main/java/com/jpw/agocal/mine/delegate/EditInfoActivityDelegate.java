@@ -10,6 +10,8 @@ import android.widget.TextView;
 import com.frame.base.utl.mvp.delegate.AppDelegate;
 import com.jpw.agocal.R;
 import com.jpw.agocal.loginreg.ResetPswByOriginalActivity;
+import com.jpw.agocal.mine.EditMoodActivity;
+import com.jpw.agocal.mine.MotifyNickNameActivity;
 import com.jpw.agocal.view.ListItemTextView;
 
 import butterknife.Bind;
@@ -78,6 +80,8 @@ public class EditInfoActivityDelegate extends AppDelegate{
         switch (view.getId()){
             case R.id.btn_mine_name:
                 //用户名
+                Intent intent1 = new Intent(getActivity(), MotifyNickNameActivity.class);
+                getActivity().startActivity(intent1);
                 break;
             case R.id.btn_mine_data:
                 //出生年月
@@ -90,9 +94,13 @@ public class EditInfoActivityDelegate extends AppDelegate{
                 break;
             case R.id.btn_mine_tag:
                 //标签
+                Intent intent2 = new Intent(getActivity(), MotifyNickNameActivity.class);
+                getActivity().startActivity(intent2);
                 break;
             case R.id.btn_mine_mood:
                 //心情
+                Intent intent3 = new Intent(getActivity(), EditMoodActivity.class);
+                getActivity().startActivity(intent3);
                 break;
             case R.id.btn_motify_psw:
                 //修改密码
