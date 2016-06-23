@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true">
+
+    <!-- 统一的页头
+    <com.frame.base.utl.view.header.TitleHeaderBar
+            android:id="@+id/ly_header_bar_title_wrap"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>-->
+
+    <include
+        android:id="@+id/id_toolbar"
+        layout="@layout/base_titlebar"></include>
+
+    <FrameLayout
+            android:id="@+id/hai_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+</LinearLayout>

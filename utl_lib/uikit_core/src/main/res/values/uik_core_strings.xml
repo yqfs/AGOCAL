@@ -1,0 +1,7 @@
+<resources>
+    <string name="uik_save_image">保存</string>
+	<string name="uik_see_origin">查看原图</string>
+	<string name="uik_save_image_success">图片已保存，请在手机相册中查看</string>
+	<string name="uik_save_image_fail_get">存储失败，无法获取图片</string>
+	<string name="uik_save_image_fail_full">存储失败，可能存储空间不足</string>
+</resources>

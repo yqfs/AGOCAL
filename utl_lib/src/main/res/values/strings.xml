@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">utl_lib</string>
+
+    <!-- alert dialog msg start-->
+    <string name="alert_dialog_confirm_btn_str">确认</string>
+    <string name="alert_dialog_cancel_btn_str">取消</string>
+    <string name="alert_dialog_loading_str">正在加载</string>
+
+    <!-- alert dialog msg end-->
+
+    <string name="click_back_quit_message">再按一次退出</string>
+
+    <!-- 日常 -->
+    <string name="daily_h5_base_host">http://t-app.195qqg.com</string>
+    <!-- 线上 -->
+    <string name="online_h5_base_host">http://app.195qqg.com</string>
+
+    <!-- api environment switch : 2 for online, 1 for pre, 0 for daily -->
+    <string name="api_env">2</string>
+    <!-- h5 environment switch : 1 for online, 0 for daily -->
+    <string name="h5_env">1</string>
+    <!-- print log switch : 0 for close, 1 for open -->
+    <string name="isPrintHaiLog">1</string>
+
+    <!-- 日常 -->
+    <string name="daily_api_base_host">http://t-app.195qqg.com</string>
+    <!-- 预发 -->
+    <string name="pre_api_base_host">http://d-app.195qqg.com</string>
+    <!-- 线上 -->
+    <string name="online_api_base_host">http://app.195qqg.com</string>
+    <!-- 验证码 -->
+    <string name="register_send_verification_code">发送验证码</string>
+    <string name="register_send_verification_sending_code">秒后可重发</string>
+    <!-- listview -->
+    <string name="loading_more_footer">商品正在加载中哦，请耐心等待一下吧~</string>
+    <string name="load_finish_footer">加载完成，已无更多~</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

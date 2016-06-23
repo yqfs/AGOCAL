@@ -1,0 +1,152 @@
+<com.frame.base.utl.view.layout.OverScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.jpw.agocal.home.fragment.MineFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.frame.base.utl.view.widget.RatioImageView
+            android:id="@+id/img_mine_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            ></com.frame.base.utl.view.widget.RatioImageView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/img_mine_avatar"
+            android:text="Eden Zhang"
+            android:id="@+id/txt_mine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_mine_job"
+            android:text="导游"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/txt_mine_name"
+            android:layout_below="@+id/txt_mine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/btn_edit_info"
+            android:text="编辑资料"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_mine_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <View
+            android:layout_below="@+id/img_mine_avatar"
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_tag_parent"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/img_mine_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"></LinearLayout>
+
+        <View
+            android:layout_below="@+id/layout_tag_parent"
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/txt_mine_city"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/layout_tag_parent"
+            android:text="城市："
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <View
+            android:layout_below="@+id/txt_mine_city"
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_mood_parent"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/txt_mine_city"
+            android:minHeight="48dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_mine_mood"
+                android:text="心情："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_mine_content_mood"
+                android:text="p;sdjfdjgpdjfgdfjgfpghjfgjhio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/layout_mood_parent"
+            android:id="@+id/btn_mine_obout"
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="关于我们"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:layout_below="@+id/btn_mine_obout"
+            android:id="@+id/btn_mine_bind"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="账户绑定"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <LinearLayout
+            android:id="@+id/btn_account"
+            android:layout_below="@+id/btn_mine_bind"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                android:id="@+id/txt_mine_account"
+                android:text="导游账号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_mine_content_account"
+                android:layout_margin="18dp"
+                android:text="448654566486"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</com.frame.base.utl.view.layout.OverScrollView>

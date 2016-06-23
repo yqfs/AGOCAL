@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/uik_loading_a_dark_1" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_4" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_7" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_10" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_13" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_16" android:duration="100" />
+    <item android:drawable="@drawable/uik_loading_a_dark_19" android:duration="100" />
+</animation-list>

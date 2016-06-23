@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_banner.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_image_save_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_image_save_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_newbie_hint_fragment.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_newbie_hint_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_edit_multiple_choice.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_edit_multiple_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_choice_divider.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_choice_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\uik_image_save_choice.xml",
+        "source": "C:\\Users\\Administrator\\Documents\\shop\\utl_lib\\uikit_core\\build\\intermediates\\bundles\\debug\\res\\layout\\uik_image_save_choice.xml"
+    }
+]

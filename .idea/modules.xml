@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AGOCAL.iml" filepath="$PROJECT_DIR$/AGOCAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easeui/easeui.iml" filepath="$PROJECT_DIR$/easeui/easeui.iml" />
       <module fileurl="file://$PROJECT_DIR$/ptr_lib/ptr_lib.iml" filepath="$PROJECT_DIR$/ptr_lib/ptr_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/uikit_core/uikit_core.iml" filepath="$PROJECT_DIR$/uikit_core/uikit_core.iml" />
       <module fileurl="file://$PROJECT_DIR$/utl_lib/utl_lib.iml" filepath="$PROJECT_DIR$/utl_lib/utl_lib.iml" />

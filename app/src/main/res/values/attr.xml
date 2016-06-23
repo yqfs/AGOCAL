@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <attr name="tagTextSize" format="dimension"/>
+    <attr name="tagText" format="string"/>
+    <attr name="tagTextColor" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="text" format="string"/>
+    <attr name="textColor" format="color"/>
+
     <!--自定义滑动viewpager-->
     <declare-styleable name="CustomViewPager">
         <attr name="viewpager_enabled" format="boolean"/>
+    </declare-styleable>
+    <!--ListItemTextView-->
+    <declare-styleable name="ListItemTextView">
+        <attr name="tagTextSize"/>
+        <attr name="tagText"/>
+        <attr name="tagTextColor"/>
+        <attr name="textSize"/>
+        <attr name="text" />
+        <attr name="textColor"/>
     </declare-styleable>
 </resources>

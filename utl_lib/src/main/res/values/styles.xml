@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbarStyle">@style/ClubToolbar</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowBackground">@null</item>
+        <!-- 设置没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity 的默认转场动画，当然也可以在代码中通过 overridePendingTransition 的方式来手动设置转场动画-->
+        <!--<item name="android:windowAnimationStyle">@style/ActivityAnimation</item>-->
+        <!--selector-->
+        <item name="appItemSelector">@drawable/item_selector_background</item>
+
+        <!--&lt;!&ndash;自定义&ndash;&gt;-->
+        <!--<item name="appBackground">?android:windowBackground</item>-->
+        <!--<item name="appHeaderTitleBackground">@color/app_header_title_background</item>-->
+        <!--&lt;!&ndash;list&ndash;&gt;-->
+        <!--<item name="appListDivider">@color/app_list_background</item>-->
+        <item name="appListItemContainerBackground">@color/app_item_background</item>
+        <!--&lt;!&ndash;listItem title&ndash;&gt;-->
+        <!--<item name="appListItemTitleTextSize">16sp</item>-->
+        <!--<item name="appListItemTitleTextColor">@color/app_item_title_font</item>-->
+        <!--&lt;!&ndash;listItem subtitle&ndash;&gt;-->
+        <!--<item name="appListItemSubTitleTextSize">14sp</item>-->
+        <!--<item name="appListItemSubTitleTextColor">@color/app_item_subtitle_font</item>-->
+        <!--&lt;!&ndash;listItem content&ndash;&gt;-->
+        <!--<item name="appListItemContentTextSize">14sp</item>-->
+        <!--<item name="appListItemContentTextColor">@color/app_item_content_font</item>-->
+
+        <!--&lt;!&ndash;tab&ndash;&gt;-->
+        <!--<item name="appTabContainerBackground">@color/app_tab_container_background</item>-->
+        <!--<item name="appTabItemTextSize">16sp</item>-->
+        <!--<item name="appTabItemTextColor">@color/app_tab_item_font</item>-->
+        <!--<item name="appTabItemSelectedTextColor">@color/app_tab_item_selected_font</item>-->
+        <!--<item name="appTabItemLineColor">?appTabItemTextColor</item>-->
+        <!--<item name="appTabItemSelectedLineColor">?appTabItemSelectedTextColor</item>-->
+
+        <!--separator-->
+        <item name="appSeparatorBackground">@color/app_separator_background</item>
+
+        <!--&lt;!&ndash;pageBar&ndash;&gt;-->
+        <!--<item name="appPagebarBackground">?appListDivider</item>-->
+        <!--<item name="appTipContainerBackground">@drawable/ic_dialog</item>-->
+    </style>
+
+    <!--夜间模式theme @android:Theme.Holo-->
+    <style name="Theme.Base.Night" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/app_background_invert</item>
+        <!-- 设置没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity 的默认转场动画，当然也可以在代码中通过 overridePendingTransition 的方式来手动设置转场动画-->
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <!--selector-->
+        <item name="appItemSelector">@drawable/item_selector_background_invert</item>
+        <!--<item name="appBackground">?android:windowBackground</item>-->
+        <!--&lt;!&ndash;title&ndash;&gt;-->
+        <!--<item name="appHeaderTitleBackground">@color/app_header_title_background_invert</item>-->
+        <!--&lt;!&ndash;list&ndash;&gt;-->
+        <!--<item name="appListDivider">@color/app_list_background_invert</item>-->
+        <item name="appListItemContainerBackground">@color/app_item_background_invert</item>
+        <!--&lt;!&ndash;listItem title&ndash;&gt;-->
+        <!--<item name="appListItemTitleTextSize">16sp</item>-->
+        <!--<item name="appListItemTitleTextColor">@color/app_item_title_font_invert</item>-->
+        <!--&lt;!&ndash;listItem subtitle&ndash;&gt;-->
+        <!--<item name="appListItemSubTitleTextSize">14sp</item>-->
+        <!--<item name="appListItemSubTitleTextColor">@color/app_item_subtitle_font_invert</item>-->
+        <!--&lt;!&ndash;listItem content&ndash;&gt;-->
+        <!--<item name="appListItemContentTextSize">14sp</item>-->
+        <!--<item name="appListItemContentTextColor">@color/app_item_content_font_invert</item>-->
+
+        <!--&lt;!&ndash;tab&ndash;&gt;-->
+        <!--<item name="appTabContainerBackground">@color/app_tab_container_background_invert</item>-->
+        <!--<item name="appTabItemTextSize">16sp</item>-->
+        <!--<item name="appTabItemTextColor">#fff1f1f1</item>-->
+        <!--<item name="appTabItemSelectedTextColor">?appHeaderTitleBackground</item>-->
+        <!--<item name="appTabItemLineColor">?appTabItemTextColor</item>-->
+        <!--<item name="appTabItemSelectedLineColor">?appTabItemSelectedTextColor</item>-->
+
+        <!--separator-->
+        <item name="appSeparatorBackground">@color/app_separator_background_invert</item>
+        <!--&lt;!&ndash;pageBar&ndash;&gt;-->
+        <!--<item name="appPagebarBackground">?appListDivider</item>-->
+
+        <!--<item name="appTipContainerBackground">@drawable/bg_tip_arrow_left</item>-->
+    </style>
+
+    <!-- custom activity Transition animation-->
+    <style name="ActivityAnimation" parent="android:style/Animation.Activity">
+        <item name="android:activityOpenExitAnimation">@anim/app_slide_left_out</item>
+        <item name="android:activityOpenEnterAnimation">@anim/app_slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/app_slide_right_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/app_slide_left_in</item>
+    </style>
+
+    <!-- hai common dialog style -->
+    <style name="CommonAlertDialog" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- 透明度 -->
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <!-- debug 工具 check box 按钮样式 -->
+    <style name="DebugCustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/selector_radio_button</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@drawable/shape_bg_stroke_e2_1px_solid_transparent</item>
+        <item name="android:textColor">@color/app_font_color_2f</item>
+    </style>
+
+    <!-- hai common dialog style -->
+    <style name="App.CommonAlertDialog" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- 透明度 -->
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <!-- common loading dialog style-->
+    <style name="App.CommonLoadingDialog" parent="@style/App.CommonAlertDialog">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+    <style name="ClubToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+
+</resources>

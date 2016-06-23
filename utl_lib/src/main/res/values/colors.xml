@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--style-->
+    <color name="app_background_invert">#000000</color>
+    <color name="app_main_color">#FF7623</color>
+    <color name="app_main_bg_color">#0F68C3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="app_tao_color">#fc714b</color>
+    <color name="app_deep_tao_color">#eb5d36</color>
+    <color name="transparent_main_color">#d12f2f2f</color>
+    <!--font-->
+    <color name="app_font_color_2f">#2f2f2f</color>
+    <color name="app_font_color_a1">#a1a1a1</color>
+    <color name="app_font_color_77">#777777</color>
+    <color name="app_font_color_66">#666666</color>
+    <color name="app_font_color_c2">#c2c2c2</color>
+    <!--divider-->
+    <color name="app_divider_line_bg_e2">#e2e2e2</color>
+    <color name="app_divider_line_bg_e8">#e8e8e8</color>
+    <!--listItem-->
+    <!--列表分割线颜色-->
+    <color name="list_divider">#FF4081</color>
+    <color name="app_item_background">#ffffffff</color>
+    <color name="app_item_background_invert">#ff151515</color>
+    <color name="app_item_press_background">#fff1f1f1</color>
+    <color name="app_item_press_background_invert">#ff393939</color>
+
+    <!--表单-->
+    <color name="app_separator_background">#ffdddddd</color>
+    <color name="app_separator_background_invert">#ff393939</color>
+    <color name="app_separator_strong_background">#ffdddddd</color>
+</resources>

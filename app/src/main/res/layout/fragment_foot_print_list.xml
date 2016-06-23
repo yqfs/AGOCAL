@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jpw.agocal.home.Fragment.FootPrintListFragment">
+    android:background="@color/white"
+    tools:context="com.jpw.agocal.home.fragment.FootPrintListFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

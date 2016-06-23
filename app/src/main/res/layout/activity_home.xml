@@ -5,7 +5,7 @@
     android:orientation="vertical" >
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/id_viewPager"
+        android:id="@+id/home_page"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.0"/>
@@ -13,7 +13,7 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/id_radioGroup"
+        android:id="@+id/home_tab_parent"
         android:background="@color/white"
         android:orientation="horizontal"
         android:padding="5dp" >

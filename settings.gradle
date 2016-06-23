@@ -1,1 +1,1 @@
-include ':app', ':utl_lib', ':ptr_lib', ':uikit_core'
+include ':app', ':utl_lib', ':ptr_lib', ':uikit_core', ':easeui'

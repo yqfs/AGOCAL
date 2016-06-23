@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="app_main_left_margin">14dp</dimen>
+    <dimen name="app_main_right_margin">14dp</dimen>
+
+    <dimen name="toast_y_offset">70dp</dimen>
+
+    <!-- auto fit linear layout start -->
+    <dimen name="auto_fit_linear_layout_default_row_margin">12dp</dimen>
+    <dimen name="auto_fit_linear_layout_default_column_margin">12dp</dimen>
+    <!-- auto fit linear layout end -->
+
+    <dimen name="title_bar_height">52dp</dimen>
+</resources>

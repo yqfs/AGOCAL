@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  indicator container -->
+    <declare-styleable name="IndicatorContainer">
+        <attr format="enum" name="my_dot_type">
+            <enum name="dot" value="0"/>
+            <enum name="rect" value="1"/>
+        </attr>
+        <attr format="dimension" name="my_indicator_height"/>
+        <attr format="dimension" name="my_indicator_width"/>
+        <attr format="dimension" name="my_indicator_span"/>
+        <attr format="integer" name="my_indicator_unselected_color"/>
+        <attr format="integer" name="my_indicator_selected_color"/>
+    </declare-styleable>
+
+    <!-- slider banner -->
+    <declare-styleable name="SliderBanner">
+        <attr format="reference" name="my_slider_banner_indicator"/>
+        <attr format="reference" name="my_slider_banner_pager"/>
+        <attr format="integer" name="my_slider_banner_time_interval"/>
+        <attr format="boolean" name="my_slider_banner_recycle_show"/>
+        <attr format="boolean" name="my_slider_banner_auto_play"/>
+    </declare-styleable>
+
+    <declare-styleable name="EtaoSkin">
+    <attr name="appBackground" format="reference|color"/>
+    <attr name="appTextSize" format="dimension"/>
+    <attr name="appTextColor" format="reference|color"/>
+    <attr name="appItemSelector" format="reference"/>
+        <!--titleBar -->
+        <attr name="appHeaderContainerBackground" format="reference|color"/>
+        <attr name="appHeaderTitleBackground" format="reference|color"/>
+        <attr name="appHeaderTitleTextSize" format="dimension"/>
+        <attr name="appHeaderTitleTextColor" format="reference|color"/>
+
+        <!--list-->
+        <attr name="appListDivider" format="reference|color"/>
+        <attr name="appListItemContainerBackground" format="reference|color"/>
+        <!--listItem title-->
+        <attr name="appListItemTitleTextSize" format="dimension"/>
+        <attr name="appListItemTitleTextColor" format="reference|color"/>
+        <!--listItem subtitle-->
+        <attr name="appListItemSubTitleTextSize" format="dimension"/>
+        <attr name="appListItemSubTitleTextColor" format="reference|color"/>
+        <!--listItem content-->
+        <attr name="appListItemContentTextSize" format="dimension"/>
+        <attr name="appListItemContentTextColor" format="reference|color"/>
+
+        <!--tab -->
+        <attr name="appTabContainerBackground" format="reference|color"/>
+        <attr name="appTabItemBackground" format="reference|color"/>
+        <attr name="appTabItemSelectedBackground" format="reference|color"/>
+        <attr name="appTabItemTextSize" format="dimension"/>
+        <attr name="appTabItemTextColor" format="reference|color"/>
+        <attr name="appTabItemSelectedTextColor" format="reference|color"/>
+        <attr name="appTabItemLineColor" format="reference|color"/>
+        <attr name="appTabItemSelectedLineColor" format="reference|color"/>
+
+        <!--tipMenu-->
+        <attr name="appTipMenuContainerBackground" format="reference|color"/>
+        <attr name="appTipMenuItemTextSize" format="dimension"/>
+        <!--menuItem 原始状态-->
+        <attr name="appTipMenuItemBackground" format="reference|color"/>
+        <attr name="appTipMenuItemTextColor" format="reference|color"/>
+        <!--menuItem 点击状态-->
+        <attr name="appTipMenuItemPressBackground" format="reference|color"/>
+        <attr name="appTipMenuItemPressTextColor" format="reference|color"/>
+        <!--menuItem 选中状态-->
+        <attr name="appTipMenuItemSelectedBackground" format="reference|color"/>
+        <attr name="appTipMenuItemSelectedTextColor" format="reference|color"/>
+        <!--menuItem 分割线-->
+        <attr name="appTipMenuItemSeparatorColor" format="reference|color"/>
+
+        <!--Separator-->
+        <attr name="appSeparatorBackground" format="reference|color"/>
+
+        <!--pageBar-->
+        <attr name="appPagebarBackground" format="reference|color"/>
+
+        <!--tip-->
+        <attr name="appTipContainerBackground" format="reference|color"/>
+    </declare-styleable>
+
+    <!-- Auto Fit View Group -->
+    <declare-styleable name="autoFitViewGroup">
+        <attr name="rowMargin" format="dimension"/>
+        <attr name="columnMargin" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="couponItemDotDivider">
+        <attr name="dotStrokeColor" format="color"/>
+        <attr name="dotFillColor" format="color"/>
+    </declare-styleable>
+
+    <!-- Material Ripple Layout -->
+    <declare-styleable name="MaterialRippleLayout">
+        <attr format="color" localization="suggested" name="mrl_rippleColor"/>
+        <attr format="dimension" localization="suggested" name="mrl_rippleDimension"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleOverlay"/>
+        <attr format="float" localization="suggested" name="mrl_rippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mrl_rippleDuration"/>
+        <attr format="integer" localization="suggested" name="mrl_rippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleHover"/>
+        <attr format="color" localization="suggested" name="mrl_rippleBackground"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mrl_ripplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mrl_rippleRoundedCorners"/>
+    </declare-styleable>
+
+</resources>

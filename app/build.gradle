@@ -31,10 +31,17 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-//    testCompile 'junit:junit:4.12'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
     //    compile 'com.android.support:appcompat-v4:24.0.0'
     compile project(path: ':utl_lib')
+    compile files('libs/locSDK_6.23.jar')
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:support-v4:24.0.0'
+    compile files('libs/android-support-multidex.jar')
+    compile files('libs/bolts-android-1.2.0.jar')
+    compile files('libs/Parse-1.9.4.jar')
+    compile files('libs/umeng-analytics-v5.2.4.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    compile project(':easeui')
 }

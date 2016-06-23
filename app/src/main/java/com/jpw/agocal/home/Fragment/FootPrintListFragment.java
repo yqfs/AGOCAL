@@ -1,19 +1,21 @@
-package com.jpw.agocal.home.Fragment;
+package com.jpw.agocal.home.fragment;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.frame.base.utl.fragment.TitleFragment;
+import com.frame.base.utl.fragment.listenter.OnFragmentInteractionListener;
 import com.jpw.agocal.R;
+import com.jpw.agocal.home.delegate.FootPrintListFragmentDelegate;
 
 /**
  * 足迹
  */
-public class FootPrintListFragment extends Fragment {
+public class FootPrintListFragment extends TitleFragment<FootPrintListFragmentDelegate> {
 
     private OnFragmentInteractionListener mListener;
 
@@ -65,8 +67,8 @@ public class FootPrintListFragment extends Fragment {
         mListener = null;
     }
 
-    public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
+    @Override
+    protected Class<FootPrintListFragmentDelegate> getDelegateClass() {
+        return FootPrintListFragmentDelegate.class;
     }
 }

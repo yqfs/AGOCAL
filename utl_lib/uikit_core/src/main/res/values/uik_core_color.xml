@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uik_A_orange">#FFBB33</color>
+    <color name="uik_choice_divider">#dddddd</color>
+    <color name="uik_dialog_bg">#FFFFFF</color>
+    <color name="uik_text_color">#000000</color>
+</resources>
+

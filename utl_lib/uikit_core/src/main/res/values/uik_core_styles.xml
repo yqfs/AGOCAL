@@ -1,0 +1,29 @@
+<resources>
+   <!--  <style name="ProgressBar.WaveGray" parent="@android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/uik_progress_wave_gray</item>
+        <item name="android:minWidth">18dp</item>
+        <item name="android:maxWidth">18dp</item>
+        <item name="android:minHeight">7dp</item>
+        <item name="android:maxHeight">7dp</item>
+    </style>-->
+    
+    <style name="uik_imagesavedialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="uik_imagesavechoice">
+        <item name="android:textSize">@dimen/uik_choice_text_size</item>
+        <item name="android:textColor">@color/uik_text_color</item>
+		<item name="android:layout_width">@dimen/uik_choice_width</item>	
+		<item name="android:layout_height">@dimen/uik_choice_height</item>
+		<item name="android:padding">@dimen/uik_choice_padding</item>	
+		<item name="android:layout_gravity">center|left</item>
+		<item name="android:background">@drawable/uik_imagesave_btn</item>
+    </style>
+</resources>

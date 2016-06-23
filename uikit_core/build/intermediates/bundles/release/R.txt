@@ -1,0 +1,224 @@
+int attr action 0x7f010039
+int attr layoutManager 0x7f010035
+int attr reverseLayout 0x7f010037
+int attr spanCount 0x7f010036
+int attr stackFromEnd 0x7f010038
+int attr uik_animatorDelay 0x7f010014
+int attr uik_animatorDuration 0x7f010015
+int attr uik_autoScaleFeature 0x7f010022
+int attr uik_autoScroll 0x7f01000f
+int attr uik_autoScrollInterval 0x7f01000e
+int attr uik_auto_play 0x7f010028
+int attr uik_binaryPageFeature 0x7f01001b
+int attr uik_bounceScrollFeature 0x7f010020
+int attr uik_brickGap 0x7f010011
+int attr uik_brickMaxLines 0x7f010012
+int attr uik_cellAnimatorFeature 0x7f010025
+int attr uik_clickDrawableMaskFeature 0x7f010016
+int attr uik_clickMaskColor 0x7f010000
+int attr uik_clickMaskEnable 0x7f010001
+int attr uik_clickViewMaskFeature 0x7f01001a
+int attr uik_column_count 0x7f010041
+int attr uik_column_count_landscape 0x7f010043
+int attr uik_column_count_portrait 0x7f010042
+int attr uik_dragToRefreshFeature 0x7f010027
+int attr uik_fastColor 0x7f010002
+int attr uik_fastEnable 0x7f010003
+int attr uik_focusColor 0x7f01002e
+int attr uik_frameColor 0x7f01003d
+int attr uik_frameEnable 0x7f01003c
+int attr uik_frameWidth 0x7f01003e
+int attr uik_gapMargin 0x7f01002b
+int attr uik_gif_src 0x7f010029
+int attr uik_grid_paddingBottom 0x7f010048
+int attr uik_grid_paddingLeft 0x7f010045
+int attr uik_grid_paddingRight 0x7f010046
+int attr uik_grid_paddingTop 0x7f010047
+int attr uik_imagesavefeature 0x7f010024
+int attr uik_index 0x7f01002d
+int attr uik_indicatorRadius 0x7f01002a
+int attr uik_initialDelay 0x7f010013
+int attr uik_innerParallaxFactor 0x7f010031
+int attr uik_item_margin 0x7f010044
+int attr uik_maxRatio 0x7f010010
+int attr uik_minTextSize 0x7f01000d
+int attr uik_orientation 0x7f010004
+int attr uik_parallaxFactor 0x7f010030
+int attr uik_parallaxNum 0x7f010032
+int attr uik_parallaxScrollFeature 0x7f01001f
+int attr uik_pencilShapeFeature 0x7f010021
+int attr uik_phase 0x7f010033
+int attr uik_pinnedHeaderFeature 0x7f01001c
+int attr uik_pullToRefreshFeature 0x7f01001d
+int attr uik_radius 0x7f010005
+int attr uik_radiusX 0x7f010006
+int attr uik_radiusY 0x7f010007
+int attr uik_ratio 0x7f010008
+int attr uik_ratioFeature 0x7f010017
+int attr uik_recyclerCellAnimatorFeature 0x7f010026
+int attr uik_rotateFeature 0x7f010023
+int attr uik_roundFeature 0x7f010018
+int attr uik_roundRectFeature 0x7f010019
+int attr uik_roundX 0x7f01003a
+int attr uik_roundY 0x7f01003b
+int attr uik_shadowDrawable 0x7f010009
+int attr uik_shadowHeight 0x7f01000a
+int attr uik_shadowOffset 0x7f01003f
+int attr uik_stickyScrollFeature 0x7f01001e
+int attr uik_strokeColor 0x7f01000b
+int attr uik_strokeEnable 0x7f010040
+int attr uik_strokeWidth 0x7f01000c
+int attr uik_topRatio 0x7f010034
+int attr uik_total 0x7f01002c
+int attr uik_unfocusColor 0x7f01002f
+int color uik_A_orange 0x7f040000
+int color uik_choice_divider 0x7f040001
+int color uik_dialog_bg 0x7f040002
+int color uik_text_color 0x7f040003
+int dimen item_touch_helper_max_drag_scroll_per_frame 0x7f050000
+int dimen uik_choice_height 0x7f050001
+int dimen uik_choice_padding 0x7f050002
+int dimen uik_choice_text_size 0x7f050003
+int dimen uik_choice_width 0x7f050004
+int dimen uik_divider_height 0x7f050005
+int drawable uik_arrow 0x7f020000
+int drawable uik_imagesave_btn 0x7f020001
+int drawable uik_list_logo 0x7f020002
+int drawable uik_loading_a_dark_1 0x7f020003
+int drawable uik_loading_a_dark_10 0x7f020004
+int drawable uik_loading_a_dark_13 0x7f020005
+int drawable uik_loading_a_dark_16 0x7f020006
+int drawable uik_loading_a_dark_19 0x7f020007
+int drawable uik_loading_a_dark_4 0x7f020008
+int drawable uik_loading_a_dark_7 0x7f020009
+int drawable uik_progress_wave_gray 0x7f02000a
+int id checked 0x7f060006
+int id divider 0x7f060005
+int id horizontal 0x7f060001
+int id image_choice 0x7f060007
+int id indicator 0x7f060004
+int id item_touch_helper_previous_elevation 0x7f060000
+int id vertical 0x7f060002
+int id viewpager 0x7f060003
+int layout uik_banner 0x7f030000
+int layout uik_choice_divider 0x7f030001
+int layout uik_edit_multiple_choice 0x7f030002
+int layout uik_image_save_choice 0x7f030003
+int layout uik_image_save_dialog 0x7f030004
+int layout uik_newbie_hint_fragment 0x7f030005
+int string uik_save_image 0x7f070000
+int string uik_save_image_fail_full 0x7f070001
+int string uik_save_image_fail_get 0x7f070002
+int string uik_save_image_success 0x7f070003
+int string uik_see_origin 0x7f070004
+int style uik_imagesavechoice 0x7f080000
+int style uik_imagesavedialog 0x7f080001
+int[] styleable AutoScaleFeature { 0x7f01000d }
+int styleable AutoScaleFeature_uik_minTextSize 0
+int[] styleable Banner { 0x7f010008, 0x7f01000e, 0x7f01000f }
+int styleable Banner_uik_autoScroll 2
+int styleable Banner_uik_autoScrollInterval 1
+int styleable Banner_uik_ratio 0
+int[] styleable BounceScrollFeature { 0x7f010010 }
+int styleable BounceScrollFeature_uik_maxRatio 0
+int[] styleable BrickLayout { 0x7f010011, 0x7f010012 }
+int styleable BrickLayout_uik_brickGap 0
+int styleable BrickLayout_uik_brickMaxLines 1
+int[] styleable CellAnimatorFeature { 0x7f010013, 0x7f010014, 0x7f010015 }
+int styleable CellAnimatorFeature_uik_animatorDelay 1
+int styleable CellAnimatorFeature_uik_animatorDuration 2
+int styleable CellAnimatorFeature_uik_initialDelay 0
+int[] styleable ClickDrawableMaskFeature { 0x7f010000, 0x7f010001 }
+int styleable ClickDrawableMaskFeature_uik_clickMaskColor 0
+int styleable ClickDrawableMaskFeature_uik_clickMaskEnable 1
+int[] styleable ClickViewMaskFeature { 0x7f010000, 0x7f010001 }
+int styleable ClickViewMaskFeature_uik_clickMaskColor 0
+int styleable ClickViewMaskFeature_uik_clickMaskEnable 1
+int[] styleable FeatureNameSpace { 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027 }
+int styleable FeatureNameSpace_uik_autoScaleFeature 12
+int styleable FeatureNameSpace_uik_binaryPageFeature 5
+int styleable FeatureNameSpace_uik_bounceScrollFeature 10
+int styleable FeatureNameSpace_uik_cellAnimatorFeature 15
+int styleable FeatureNameSpace_uik_clickDrawableMaskFeature 0
+int styleable FeatureNameSpace_uik_clickViewMaskFeature 4
+int styleable FeatureNameSpace_uik_dragToRefreshFeature 17
+int styleable FeatureNameSpace_uik_imagesavefeature 14
+int styleable FeatureNameSpace_uik_parallaxScrollFeature 9
+int styleable FeatureNameSpace_uik_pencilShapeFeature 11
+int styleable FeatureNameSpace_uik_pinnedHeaderFeature 6
+int styleable FeatureNameSpace_uik_pullToRefreshFeature 7
+int styleable FeatureNameSpace_uik_ratioFeature 1
+int styleable FeatureNameSpace_uik_recyclerCellAnimatorFeature 16
+int styleable FeatureNameSpace_uik_rotateFeature 13
+int styleable FeatureNameSpace_uik_roundFeature 2
+int styleable FeatureNameSpace_uik_roundRectFeature 3
+int styleable FeatureNameSpace_uik_stickyScrollFeature 8
+int[] styleable GifView { 0x7f010028, 0x7f010029 }
+int styleable GifView_uik_auto_play 0
+int styleable GifView_uik_gif_src 1
+int[] styleable IndicatorView { 0x7f01000b, 0x7f01000c, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f }
+int styleable IndicatorView_uik_focusColor 6
+int styleable IndicatorView_uik_gapMargin 3
+int styleable IndicatorView_uik_index 5
+int styleable IndicatorView_uik_indicatorRadius 2
+int styleable IndicatorView_uik_strokeColor 0
+int styleable IndicatorView_uik_strokeWidth 1
+int styleable IndicatorView_uik_total 4
+int styleable IndicatorView_uik_unfocusColor 7
+int[] styleable LoopViewPager { 0x7f010008 }
+int styleable LoopViewPager_uik_ratio 0
+int[] styleable ParallaxScrollFeature { 0x7f010030, 0x7f010031, 0x7f010032 }
+int styleable ParallaxScrollFeature_uik_innerParallaxFactor 1
+int styleable ParallaxScrollFeature_uik_parallaxFactor 0
+int styleable ParallaxScrollFeature_uik_parallaxNum 2
+int[] styleable PathView { 0x7f01000b, 0x7f01000c, 0x7f010033 }
+int styleable PathView_uik_phase 2
+int styleable PathView_uik_strokeColor 0
+int styleable PathView_uik_strokeWidth 1
+int[] styleable PencilShapeFeature { 0x7f010006, 0x7f010007, 0x7f010034 }
+int styleable PencilShapeFeature_uik_radiusX 0
+int styleable PencilShapeFeature_uik_radiusY 1
+int styleable PencilShapeFeature_uik_topRatio 2
+int[] styleable RatioFeature { 0x7f010004, 0x7f010008 }
+int styleable RatioFeature_uik_orientation 0
+int styleable RatioFeature_uik_ratio 1
+int[] styleable RecyclerView { 0x010100c4, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038 }
+int styleable RecyclerView_android_orientation 0
+int styleable RecyclerView_layoutManager 1
+int styleable RecyclerView_reverseLayout 3
+int styleable RecyclerView_spanCount 2
+int styleable RecyclerView_stackFromEnd 4
+int[] styleable RemoteView { 0x7f010039 }
+int styleable RemoteView_action 0
+int[] styleable RotateFeature { 0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e }
+int styleable RotateFeature_uik_frameColor 3
+int styleable RotateFeature_uik_frameEnable 2
+int styleable RotateFeature_uik_frameWidth 4
+int styleable RotateFeature_uik_roundX 0
+int styleable RotateFeature_uik_roundY 1
+int[] styleable RoundFeature { 0x7f010002, 0x7f010003, 0x7f010005, 0x7f010009, 0x7f01003f }
+int styleable RoundFeature_uik_fastColor 0
+int styleable RoundFeature_uik_fastEnable 1
+int styleable RoundFeature_uik_radius 2
+int styleable RoundFeature_uik_shadowDrawable 3
+int styleable RoundFeature_uik_shadowOffset 4
+int[] styleable RoundRectFeature { 0x7f010002, 0x7f010003, 0x7f010006, 0x7f010007, 0x7f01000b, 0x7f01000c, 0x7f010040 }
+int styleable RoundRectFeature_uik_fastColor 0
+int styleable RoundRectFeature_uik_fastEnable 1
+int styleable RoundRectFeature_uik_radiusX 2
+int styleable RoundRectFeature_uik_radiusY 3
+int styleable RoundRectFeature_uik_strokeColor 4
+int styleable RoundRectFeature_uik_strokeEnable 6
+int styleable RoundRectFeature_uik_strokeWidth 5
+int[] styleable StaggeredGridView { 0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048 }
+int styleable StaggeredGridView_uik_column_count 0
+int styleable StaggeredGridView_uik_column_count_landscape 2
+int styleable StaggeredGridView_uik_column_count_portrait 1
+int styleable StaggeredGridView_uik_grid_paddingBottom 7
+int styleable StaggeredGridView_uik_grid_paddingLeft 4
+int styleable StaggeredGridView_uik_grid_paddingRight 5
+int styleable StaggeredGridView_uik_grid_paddingTop 6
+int styleable StaggeredGridView_uik_item_margin 3
+int[] styleable StickyScrollFeature { 0x7f010009, 0x7f01000a }
+int styleable StickyScrollFeature_uik_shadowDrawable 0
+int styleable StickyScrollFeature_uik_shadowHeight 1

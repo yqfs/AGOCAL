@@ -7,4 +7,63 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="Theme.App" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="toolbarStyle">@style/ClubToolbar</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowBackground">@null</item>
+        <!-- 设置没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity 的默认转场动画，当然也可以在代码中通过 overridePendingTransition 的方式来手动设置转场动画-->
+        <!--<item name="android:windowAnimationStyle">@style/ActivityAnimation</item>-->
+        <!--selector-->
+        <item name="appItemSelector">@drawable/item_selector_background</item>
+
+        <!--&lt;!&ndash;自定义&ndash;&gt;-->
+        <!--<item name="appBackground">?android:windowBackground</item>-->
+        <!--<item name="appHeaderTitleBackground">@color/app_header_title_background</item>-->
+        <!--&lt;!&ndash;list&ndash;&gt;-->
+        <!--<item name="appListDivider">@color/app_list_background</item>-->
+        <item name="appListItemContainerBackground">@color/app_item_background</item>
+        <!--&lt;!&ndash;listItem title&ndash;&gt;-->
+        <!--<item name="appListItemTitleTextSize">16sp</item>-->
+        <!--<item name="appListItemTitleTextColor">@color/app_item_title_font</item>-->
+        <!--&lt;!&ndash;listItem subtitle&ndash;&gt;-->
+        <!--<item name="appListItemSubTitleTextSize">14sp</item>-->
+        <!--<item name="appListItemSubTitleTextColor">@color/app_item_subtitle_font</item>-->
+        <!--&lt;!&ndash;listItem content&ndash;&gt;-->
+        <!--<item name="appListItemContentTextSize">14sp</item>-->
+        <!--<item name="appListItemContentTextColor">@color/app_item_content_font</item>-->
+
+        <!--&lt;!&ndash;tab&ndash;&gt;-->
+        <!--<item name="appTabContainerBackground">@color/app_tab_container_background</item>-->
+        <!--<item name="appTabItemTextSize">16sp</item>-->
+        <!--<item name="appTabItemTextColor">@color/app_tab_item_font</item>-->
+        <!--<item name="appTabItemSelectedTextColor">@color/app_tab_item_selected_font</item>-->
+        <!--<item name="appTabItemLineColor">?appTabItemTextColor</item>-->
+        <!--<item name="appTabItemSelectedLineColor">?appTabItemSelectedTextColor</item>-->
+
+        <!--separator-->
+        <item name="appSeparatorBackground">@color/app_separator_background</item>
+
+        <!--&lt;!&ndash;pageBar&ndash;&gt;-->
+        <!--<item name="appPagebarBackground">?appListDivider</item>-->
+        <!--<item name="appTipContainerBackground">@drawable/ic_dialog</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- 右滑返回-->
+    <style name="AppTheme.NoActionBar.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
 </resources>

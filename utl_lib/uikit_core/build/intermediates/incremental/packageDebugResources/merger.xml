@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res"/><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\build\generated\res\rs\debug"/><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res"><file name="uik_imagesave_btn" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_imagesave_btn.xml" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_1" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_1.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_10" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_10.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_13" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_13.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_16" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_16.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_19" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_19.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_4" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_4.9.png" qualifiers="" type="drawable"/><file name="uik_loading_a_dark_7" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_loading_a_dark_7.9.png" qualifiers="" type="drawable"/><file name="uik_progress_wave_gray" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable\uik_progress_wave_gray.xml" qualifiers="" type="drawable"/><file name="uik_arrow" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable-xhdpi\uik_arrow.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="uik_list_logo" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\drawable-xhdpi\uik_list_logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="uik_banner" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_banner.xml" qualifiers="" type="layout"/><file name="uik_choice_divider" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_choice_divider.xml" qualifiers="" type="layout"/><file name="uik_edit_multiple_choice" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_edit_multiple_choice.xml" qualifiers="" type="layout"/><file name="uik_image_save_choice" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_image_save_choice.xml" qualifiers="" type="layout"/><file name="uik_image_save_dialog" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_image_save_dialog.xml" qualifiers="" type="layout"/><file name="uik_newbie_hint_fragment" path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\layout\uik_newbie_hint_fragment.xml" qualifiers="" type="layout"/><file path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\values\uik_core_attrs.xml" qualifiers=""><attr format="dimension" name="uik_radius"/><attr format="dimension" name="uik_shadowHeight"/><declare-styleable name="RemoteView">
+        <attr format="string" name="action"/>
+    </declare-styleable><declare-styleable name="ClickDrawableMaskFeature">
+        <attr name="uik_clickMaskEnable"/>
+        <attr name="uik_clickMaskColor"/>
+    </declare-styleable><declare-styleable name="FeatureNameSpace">
+        <attr format="boolean" name="uik_clickDrawableMaskFeature"/>
+        <attr format="boolean" name="uik_ratioFeature"/>
+        <attr format="boolean" name="uik_roundFeature"/>
+        <attr format="boolean" name="uik_roundRectFeature"/>
+        <attr format="boolean" name="uik_clickViewMaskFeature"/>
+        <attr format="boolean" name="uik_binaryPageFeature"/>
+        <attr format="boolean" name="uik_pinnedHeaderFeature"/>
+        <attr format="boolean" name="uik_pullToRefreshFeature"/>
+        <attr format="boolean" name="uik_stickyScrollFeature"/>
+        <attr format="boolean" name="uik_parallaxScrollFeature"/>
+        <attr format="boolean" name="uik_bounceScrollFeature"/>
+        <attr format="boolean" name="uik_pencilShapeFeature"/>
+        <attr format="boolean" name="uik_autoScaleFeature"/>
+        <attr format="boolean" name="uik_rotateFeature"/>
+        <attr format="boolean" name="uik_imagesavefeature"/>
+        <attr format="boolean" name="uik_cellAnimatorFeature"/>
+        <attr format="boolean" name="uik_recyclerCellAnimatorFeature"/>
+        <attr format="boolean" name="uik_dragToRefreshFeature"/>
+    </declare-styleable><attr format="reference|color" name="uik_strokeColor"/><declare-styleable name="IndicatorView">
+        <attr format="dimension" name="uik_indicatorRadius"/>
+        <attr format="dimension" name="uik_gapMargin"/>
+        <attr format="integer" name="uik_total"/>
+        <attr format="integer" name="uik_index"/>
+        <attr format="reference|color" name="uik_focusColor"/>
+        <attr format="reference|color" name="uik_unfocusColor"/>
+        <attr name="uik_strokeColor"/>
+        <attr name="uik_strokeWidth"/>
+    </declare-styleable><declare-styleable name="GifView">
+        <attr format="boolean" name="uik_auto_play"/>
+        <attr format="reference" name="uik_gif_src"/>
+    </declare-styleable><attr format="boolean" name="uik_clickMaskEnable"/><declare-styleable name="PencilShapeFeature">
+        <attr name="uik_radiusX"/>
+        <attr name="uik_radiusY"/>
+        <attr format="float" name="uik_topRatio"/>
+    </declare-styleable><declare-styleable name="LoopViewPager">
+        <attr name="uik_ratio"/>
+    </declare-styleable><declare-styleable name="AutoScaleFeature">
+        <attr format="dimension" name="uik_minTextSize"/>
+    </declare-styleable><attr format="reference" name="uik_shadowDrawable"/><attr format="float" name="uik_ratio"/><declare-styleable name="BounceScrollFeature">
+        <attr format="float" name="uik_maxRatio"/>
+    </declare-styleable><declare-styleable name="StaggeredGridView">
+        <attr format="integer" name="uik_column_count"/>
+        <attr format="integer" name="uik_column_count_portrait"/>
+        <attr format="integer" name="uik_column_count_landscape"/>
+        <attr format="dimension" name="uik_item_margin"/>
+        <attr format="dimension" name="uik_grid_paddingLeft"/>
+        <attr format="dimension" name="uik_grid_paddingRight"/>
+        <attr format="dimension" name="uik_grid_paddingTop"/>
+        <attr format="dimension" name="uik_grid_paddingBottom"/>
+    </declare-styleable><attr format="dimension" name="uik_radiusY"/><attr format="dimension" name="uik_radiusX"/><declare-styleable name="RoundFeature">
+        <attr name="uik_shadowDrawable"/>
+        <attr format="dimension" name="uik_shadowOffset"/>
+        <attr name="uik_fastEnable"/>
+        <attr name="uik_fastColor"/>
+        <attr name="uik_radius"/>
+    </declare-styleable><attr format="dimension" name="uik_strokeWidth"/><declare-styleable name="Banner">
+        <attr format="integer" name="uik_autoScrollInterval"/>
+        <attr format="boolean" name="uik_autoScroll"/>
+        <attr name="uik_ratio"/>
+    </declare-styleable><declare-styleable name="StickyScrollFeature">
+        <attr name="uik_shadowDrawable"/>
+        <attr name="uik_shadowHeight"/>
+    </declare-styleable><declare-styleable name="CellAnimatorFeature">
+        <attr format="integer" name="uik_initialDelay"/>
+        <attr format="integer" name="uik_animatorDelay"/>
+        <attr format="integer" name="uik_animatorDuration"/>
+    </declare-styleable><attr format="reference|color" name="uik_fastColor"/><attr format="color" name="uik_clickMaskColor"/><declare-styleable name="ClickViewMaskFeature">
+        <attr name="uik_clickMaskEnable"/>
+        <attr name="uik_clickMaskColor"/>
+    </declare-styleable><declare-styleable name="BrickLayout">
+        <attr format="dimension" name="uik_brickGap"/>
+        <attr format="integer" name="uik_brickMaxLines"/>
+    </declare-styleable><attr name="uik_orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr><declare-styleable name="ParallaxScrollFeature">
+        <attr format="float" name="uik_parallaxFactor"/>
+        <attr format="float" name="uik_innerParallaxFactor"/>
+        <attr format="integer" name="uik_parallaxNum"/>
+    </declare-styleable><declare-styleable name="RatioFeature">
+        <attr name="uik_ratio"/>
+        <attr name="uik_orientation"/>
+    </declare-styleable><attr format="boolean" name="uik_fastEnable"/><declare-styleable name="RoundRectFeature">
+        <attr name="uik_radiusX"/>
+        <attr name="uik_radiusY"/>
+        <attr format="boolean" name="uik_strokeEnable"/>
+        <attr name="uik_strokeColor"/>
+        <attr name="uik_strokeWidth"/>
+        <attr name="uik_fastEnable"/>
+        <attr name="uik_fastColor"/>
+    </declare-styleable><declare-styleable name="RotateFeature">
+        <attr format="dimension" name="uik_roundX"/>
+        <attr format="dimension" name="uik_roundY"/>
+        <attr format="boolean" name="uik_frameEnable"/>
+        <attr format="reference|color" name="uik_frameColor"/>
+        <attr format="dimension" name="uik_frameWidth"/>
+    </declare-styleable><declare-styleable name="PathView">
+        <attr name="uik_strokeWidth"/>
+        <attr name="uik_strokeColor"/>
+        <attr format="float" name="uik_phase"/>
+    </declare-styleable></file><file path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\values\uik_core_color.xml" qualifiers=""><color name="uik_A_orange">#FFBB33</color><color name="uik_dialog_bg">#FFFFFF</color><color name="uik_choice_divider">#dddddd</color><color name="uik_text_color">#000000</color></file><file path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\values\uik_core_dimen.xml" qualifiers=""><dimen name="uik_choice_width">280dp</dimen><dimen name="uik_divider_height">1dp</dimen><dimen name="uik_choice_text_size">22dp</dimen><dimen name="uik_choice_padding">10dp</dimen><dimen name="uik_choice_height">60dp</dimen></file><file path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\values\uik_core_strings.xml" qualifiers=""><string name="uik_save_image_fail_full">存储失败，可能存储空间不足</string><string name="uik_save_image_fail_get">存储失败，无法获取图片</string><string name="uik_save_image_success">图片已保存，请在手机相册中查看</string><string name="uik_save_image">保存</string><string name="uik_see_origin">查看原图</string></file><file path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\main\res\values\uik_core_styles.xml" qualifiers=""><style name="uik_imagesavechoice">
+        <item name="android:textSize">@dimen/uik_choice_text_size</item>
+        <item name="android:textColor">@color/uik_text_color</item>
+		<item name="android:layout_width">@dimen/uik_choice_width</item>	
+		<item name="android:layout_height">@dimen/uik_choice_height</item>
+		<item name="android:padding">@dimen/uik_choice_padding</item>	
+		<item name="android:layout_gravity">center|left</item>
+		<item name="android:background">@drawable/uik_imagesave_btn</item>
+    </style><style name="uik_imagesavedialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style></file></source><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\build\generated\res\rs\debug"/><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Administrator\Documents\shop\utl_lib\uikit_core\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BrickLayout"><attr format="dimension" name="uik_brickGap"/><attr format="integer" name="uik_brickMaxLines"/></declare-styleable><declare-styleable name="StaggeredGridView"><attr format="integer" name="uik_column_count"/><attr format="integer" name="uik_column_count_portrait"/><attr format="integer" name="uik_column_count_landscape"/><attr format="dimension" name="uik_item_margin"/><attr format="dimension" name="uik_grid_paddingLeft"/><attr format="dimension" name="uik_grid_paddingRight"/><attr format="dimension" name="uik_grid_paddingTop"/><attr format="dimension" name="uik_grid_paddingBottom"/></declare-styleable><declare-styleable name="GifView"><attr format="boolean" name="uik_auto_play"/><attr format="reference" name="uik_gif_src"/></declare-styleable><declare-styleable name="PathView"><attr name="uik_strokeWidth"/><attr name="uik_strokeColor"/><attr format="float" name="uik_phase"/></declare-styleable><declare-styleable name="Banner"><attr format="integer" name="uik_autoScrollInterval"/><attr format="boolean" name="uik_autoScroll"/><attr name="uik_ratio"/></declare-styleable><declare-styleable name="RemoteView"><attr format="string" name="action"/></declare-styleable><declare-styleable name="StickyScrollFeature"><attr name="uik_shadowDrawable"/><attr name="uik_shadowHeight"/></declare-styleable><declare-styleable name="RatioFeature"><attr name="uik_ratio"/><attr name="uik_orientation"/></declare-styleable><declare-styleable name="BounceScrollFeature"><attr format="float" name="uik_maxRatio"/></declare-styleable><declare-styleable name="IndicatorView"><attr format="dimension" name="uik_indicatorRadius"/><attr format="dimension" name="uik_gapMargin"/><attr format="integer" name="uik_total"/><attr format="integer" name="uik_index"/><attr format="reference|color" name="uik_focusColor"/><attr format="reference|color" name="uik_unfocusColor"/><attr name="uik_strokeColor"/><attr name="uik_strokeWidth"/></declare-styleable><declare-styleable name="LoopViewPager"><attr name="uik_ratio"/></declare-styleable><declare-styleable name="RoundFeature"><attr name="uik_shadowDrawable"/><attr format="dimension" name="uik_shadowOffset"/><attr name="uik_fastEnable"/><attr name="uik_fastColor"/><attr name="uik_radius"/></declare-styleable><declare-styleable name="FeatureNameSpace"><attr format="boolean" name="uik_clickDrawableMaskFeature"/><attr format="boolean" name="uik_ratioFeature"/><attr format="boolean" name="uik_roundFeature"/><attr format="boolean" name="uik_roundRectFeature"/><attr format="boolean" name="uik_clickViewMaskFeature"/><attr format="boolean" name="uik_binaryPageFeature"/><attr format="boolean" name="uik_pinnedHeaderFeature"/><attr format="boolean" name="uik_pullToRefreshFeature"/><attr format="boolean" name="uik_stickyScrollFeature"/><attr format="boolean" name="uik_parallaxScrollFeature"/><attr format="boolean" name="uik_bounceScrollFeature"/><attr format="boolean" name="uik_pencilShapeFeature"/><attr format="boolean" name="uik_autoScaleFeature"/><attr format="boolean" name="uik_rotateFeature"/><attr format="boolean" name="uik_imagesavefeature"/><attr format="boolean" name="uik_cellAnimatorFeature"/><attr format="boolean" name="uik_recyclerCellAnimatorFeature"/><attr format="boolean" name="uik_dragToRefreshFeature"/></declare-styleable><declare-styleable name="AutoScaleFeature"><attr format="dimension" name="uik_minTextSize"/></declare-styleable><declare-styleable name="CellAnimatorFeature"><attr format="integer" name="uik_initialDelay"/><attr format="integer" name="uik_animatorDelay"/><attr format="integer" name="uik_animatorDuration"/></declare-styleable><declare-styleable name="PencilShapeFeature"><attr name="uik_radiusX"/><attr name="uik_radiusY"/><attr format="float" name="uik_topRatio"/></declare-styleable><declare-styleable name="ParallaxScrollFeature"><attr format="float" name="uik_parallaxFactor"/><attr format="float" name="uik_innerParallaxFactor"/><attr format="integer" name="uik_parallaxNum"/></declare-styleable><declare-styleable name="RoundRectFeature"><attr name="uik_radiusX"/><attr name="uik_radiusY"/><attr format="boolean" name="uik_strokeEnable"/><attr name="uik_strokeColor"/><attr name="uik_strokeWidth"/><attr name="uik_fastEnable"/><attr name="uik_fastColor"/></declare-styleable><declare-styleable name="ClickViewMaskFeature"><attr name="uik_clickMaskEnable"/><attr name="uik_clickMaskColor"/></declare-styleable><declare-styleable name="RotateFeature"><attr format="dimension" name="uik_roundX"/><attr format="dimension" name="uik_roundY"/><attr format="boolean" name="uik_frameEnable"/><attr format="reference|color" name="uik_frameColor"/><attr format="dimension" name="uik_frameWidth"/></declare-styleable><declare-styleable name="ClickDrawableMaskFeature"><attr name="uik_clickMaskEnable"/><attr name="uik_clickMaskColor"/></declare-styleable></configuration></mergedItems></merger>

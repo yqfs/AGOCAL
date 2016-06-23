@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="1.0"
+        android:fromYScale="1.0"
+        android:toYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="500" />
+</set><!--
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:interpolator="@android:anim/accelerate_interpolator"
+                android:fromDegrees="+360"
+                android:toDegrees="0"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:duration="2000"
+                />
+        android:interpolator="@android:anim/accelerate_interpolator" 设置动画渲染器为加速动画(动画播放中越来越快)
+        android:interpolator="@android:anim/decelerate_interpolator" 设置动画渲染器为减速动画(动画播放中越来越慢)
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" 设置动画渲染器为先加速在减速(开始速度最快 逐渐减慢)
+        -->

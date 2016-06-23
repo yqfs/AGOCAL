@@ -1,0 +1,7 @@
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/divider"
+    android:layout_width="@dimen/uik_choice_width"
+    android:layout_height="@dimen/uik_divider_height"
+    android:background="@color/uik_choice_divider">
+    
+</View>

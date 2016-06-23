@@ -2,12 +2,50 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jpw.agocal">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- 使用时把com.easemob.chatuidemo替换成自己的包名 -->
+    <permission
+        android:name="com.jpw.agocal.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.jpw.agocal.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="com.jpw.agocal.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.easemob.chatuidemo.permission.MIPUSH_RECEIVE" />
+
     <application
+        android:name=".application.GoCalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.App">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,8 +53,314 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home.HomeActivity" />
-        <activity android:name=".footprint.FootPrintActivity"></activity>
+        <!-- 首页 -->
+        <activity
+            android:name=".home.HomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".footprint.FootPrintActivity" />
+
+        <!-- 登陆 -->
+        <!--
+        <activity
+            android:name="com.hy.chatuidemo.ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+        </activity>
+        -->
+
+
+        <!-- 注册 -->
+        <!--
+            <activity
+            android:name="com.easemob.chatuidemo.ui.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+        </activity>
+        -->
+        <!--
+&lt;!&ndash; 聊天页面 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ChatActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        &lt;!&ndash; 添加好友 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.AddContactActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        &lt;!&ndash; 群组详情 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.GroupDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        &lt;!&ndash; 群组列表 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.GroupsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <activity
+            android:name="com.hyphenate.easeui.activity.ChatRoomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        &lt;!&ndash; 聊天室详情 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ChatRoomDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+
+        &lt;!&ndash; 新建群组 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.NewGroupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        &lt;!&ndash; 退出群组提示框 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ExitGroupDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        &lt;!&ndash; 群组选人 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.GroupPickContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        &lt;!&ndash; 地图 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.EaseBaiduMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+
+        &lt;!&ndash; 新的朋友邀请消息页面 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.NewFriendsMsgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        &lt;!&ndash; 转发消息用户列表页面 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ForwardMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        &lt;!&ndash; 自定义的contextmenu &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ContextMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+        &lt;!&ndash; 显示下载大图页面 &ndash;&gt;
+       &lt;!&ndash; <activity
+            android:name="com.hyphenate.easeui.activity.EaseShowBigImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>&ndash;&gt;
+        &lt;!&ndash; 下载文件 &ndash;&gt;
+        &lt;!&ndash;<activity
+            android:name="com.hyphenate.easeui.activity.EaseShowNormalFileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>&ndash;&gt;
+        &lt;!&ndash; 黑名单 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.BlacklistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+
+        &lt;!&ndash; 公开的群聊列表 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.PublicGroupsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <activity
+            android:name="com.hyphenate.easeui.activity.PublicChatRoomsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        &lt;!&ndash; 语音通话 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.VoiceCallActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/nornal_style" >
+        </activity>
+        &lt;!&ndash; 视频通话 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.VideoCallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        &lt;!&ndash; 群聊简单信息 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.GroupSimpleDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        &lt;!&ndash; 群组黑名单用户列表 &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.GroupBlacklistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.hyphenate.easeui.activity.PublicGroupsSeachActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.hyphenate.easeui.activity.EditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+&lt;!&ndash;        <activity
+            android:name="com.hyphenate.easeui.activity.EaseShowVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>&ndash;&gt;
+        &lt;!&ndash; choose video &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.ImageGridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.hyphenate.easeui.activity.RecorderVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        &lt;!&ndash; upload error log &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.DiagnoseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+
+        &lt;!&ndash; iOS offline push nick &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.OfflinePushNickActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        &lt;!&ndash; robots list &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.RobotsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            ></activity>
+        &lt;!&ndash; user profile &ndash;&gt;
+        <activity
+            android:name="com.hyphenate.easeui.activity.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            ></activity>
+
+        &lt;!&ndash; 开机自启动服务 &ndash;&gt;
+        <receiver android:name="com.hyphenate.easeui.receiver.StartServiceReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <!-- meta-data需要写在application中 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="pmdS3BPPPH4VOdZH9YjYDgCQIlSPx0HC" />
+
+        <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="easemob-demo#chatdemoui" />
+        <!--
+        &lt;!&ndash; 声明sdk所需的service &ndash;&gt;
+        <service android:name="com.easemob.chat.EMChatService"
+            android:exported="true"
+            />
+        &lt;!&ndash; 声明sdk所需的receiver &ndash;&gt;
+        <receiver android:name="com.easemob.chat.EMMonitorReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            &lt;!&ndash; 可选filter &ndash;&gt;
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!--编辑资料-->
+        <activity
+            android:name=".mine.EditInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!--通过原密码重置密码-->
+        <activity
+            android:name=".loginreg.ResetPswByOriginalActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!--关于我们-->
+        <activity
+            android:name=".mine.OboutOursActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+        <!--意见反馈-->
+        <activity
+            android:name=".mine.FeedBackActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Translucent"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.frame.base.utl.view.layout.OverScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jpw.agocal.mine.EditInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        
+        <com.jpw.agocal.view.ListItemTextView
+            app:text="Eden Zhang"
+            app:tagText="用户名:"
+            app:tagTextColor="#333333"
+            app:tagTextSize="16sp"
+            app:textSize="16sp"
+            app:textColor="#999999"
+            android:id="@+id/btn_mine_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <com.jpw.agocal.view.ListItemTextView
+            android:id="@+id/btn_mine_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <com.jpw.agocal.view.ListItemTextView
+            android:id="@+id/btn_mine_sex"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <com.jpw.agocal.view.ListItemTextView
+            android:id="@+id/btn_mine_city"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"/>
+
+        <com.jpw.agocal.view.ListItemTextView
+            android:id="@+id/btn_mine_tag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.jpw.agocal.view.ListItemTextView
+            android:id="@+id/btn_mine_mood"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.jpw.agocal.view.ListItemTextView>
+
+        <View
+            android:background="@color/gray_normal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:text="修改密码"
+            android:id="@+id/btn_motify_psw"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</com.frame.base.utl.view.layout.OverScrollView>
